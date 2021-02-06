@@ -1,0 +1,80 @@
+body{
+background-color: black;
+color: white;
+}
+.nav-item{
+	color: white;
+}
+.img1{
+	max-height: 50px;
+}
+.header_main{
+	display: :grid;
+	align-items: center;
+	grid-template-columns: 4000px 1fr;
+	margin-left: 100px;
+}
+.header_main_content_h1{
+	font-size: 63px;
+	padding-top: 180px;
+}
+.header_main_content_p{
+	font-size: 16px;
+	margin-top: 10px;
+	width:50%;
+}
+.header_main_content button{
+	font-size: 25px;
+	padding: 14px 65px;
+	border: none;
+	outline: none;
+	color: :#fff;
+	cursor: pointer;
+	border-radius: 15px;
+	background-color: #b30000;
+}
+.cta:hover{
+	opacity: .6;
+
+}
+.header_main_img{
+	margin-left: 500px;
+	margin-top: -280px;
+	width: 700px;
+	height: 500px;
+}
+.social_media{
+	padding-left: 30px;
+	margin-top: -120px;
+}
+.insta{
+	margin-left: 10px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	width: 40px;
+	height:40px;
+	padding-top: 6px;
+	padding-left: 6px;
+	cursor: pointer;
+} 
+.twitter{
+	margin-left: 10px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	width: 40px;
+	height:40px;
+	padding-top: 6px;
+	padding-left: 6px;
+	cursor: pointer;
+
+}
+.fb{
+	margin-left: 8px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	width: 40px;
+	height:40px;
+	padding-top: 4px;
+	padding-left: 4px;
+	cursor: pointer;
+}
